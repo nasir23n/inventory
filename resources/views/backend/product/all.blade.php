@@ -23,6 +23,7 @@
                         <th>Buying Price</th>
                         <th>Selling Price</th>
                         <th>Root</th>
+                        <th>Quantity</th>
                         <th>Supplier</th>
                         <th style="width: 150px;">action</th>
                     </tr>
@@ -39,6 +40,7 @@
                             <td>{{ $item->buying_price }}TK</td>
                             <td>{{ $item->selling_price }}TK</td>
                             <td>{{ $item->root }}</td>
+                            <td>{{ $item->quantity }}</td>
                             <td>{{ $item->supplier_name }}</td>
                             <td>
                                 <div class="flex">
